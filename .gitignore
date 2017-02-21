@@ -1,0 +1,34 @@
+src/*.exe
+src/lucidcoin
+src/lucidcoind
+src/test_lucidcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.lucidcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+lucidcoin-qt
+Lucidcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+lucidcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
